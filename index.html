@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samira Siham</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      function showteam() {
+        Swal.fire({
+          title: "H.O.M.I.E.S",
+          imageUrl: "images/homies.jpeg",
+          imageWidth: 400,
+          imageHeight: 200,
+          imageAlt: "Custom image",
+          background:"#333333",
+          color:"#fff"
+        });
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Samira <span class="text-white-50">Siham</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showteam()">Team</a>
+              </li>
+            </ul>
+            <ul class="nav justify-content-flex-end">
+              <a href="https://www.linkedin.com/in/samira-siham-94b3ab215/" target="_blank" class="nav-link px-2 text-light"><img src="icons/linkedin.png" alt=""></a>
+              <a href="https://www.facebook.com/profile.php?id=100010599521600" target="_blank" class="nav-link px-2 text-light"><img src="icons/facebook.png" alt=""></a>
+              <a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-light"><img src="icons/instagram.png" alt=""></a>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+      <section class="home" id="home">
+          <div class="cont1">
+            <div class="home-content text-light">
+                <div class="text-1 h2">Hello,my name is</div>
+                <div class="text-2 h1">Samira Siham</div>
+                <div class="text-3 h2">And I'm a <span class="text-white-50" id="typeEffect"></span></div>
+            </div>
+          </div>
+          <script src="text-typing-effect.js"></script>
+      </section>
+      <section class="about" id="about">
+        <h2 class="h2 text-center text-light id="abt_title">About me</h2>
+        <div class="container">
+          <div class="card mb-3 bg-dark text-light offset-md-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="images/profile 1.PNG" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Samira Siham</h5>
+                  <p class="card-text">I'm an 18 year old digital development student at OFPPT, aspiring to create my own company dedicated to web development</p>
+                  <a href="files/CV-Samira-Siham.pdf" download class="btn btn-outline-light">Download CV </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="h2 text-center text-light" id="service_title">Projects I worked on</h2>
+        <div class="container offset-md-2">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <h5 class="card-title">Library management website</h5>
+                  <p class="card-text">
+                    Using html,css,js,bootstrap and PHP CRUD, this website consists of a digital library where you can manage students,books and students borrowing books
+                  </p>
+                  <a href="../tp 2 pdo modified/index.php" class="btn btn-outline-light">Check it out</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <a href="#" class="btn btn-outline-light">Check it out</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. 
+                  </p>
+                  <a href="#" class="btn btn-outline-light">Check it out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="h2 text-center text-light" id="skills_title">My skills</h2>
+        <div class="offset-md-4">
+          <div class="container">
+            <span class="text-light lead">HTML</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+          <div class="container">
+            <span class="text-light lead">CSS</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+          <div class="container">
+            <span class="text-light lead">Python</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+          <div class="container">
+            <span class="text-light lead">Javascript</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+          <div class="container">
+            <span class="text-light lead">Mysql</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+          <div class="container">
+            <span class="text-light lead">PHP</span>
+            <span class="progress" style="width : 50%">
+              <span class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+          </div>
+        </div>
+      </section>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb3">
+          <a href="#home" class="nav-link px-2 text-light">Home</a>
+          <a href="#about" class="nav-link px-2 text-light">About</a>
+          <a href="#projects" class="nav-link px-2 text-light">Projects</a>
+          <a href="#skills" class="nav-link px-2 text-light">Skills</a>
+        </ul>
+        <p class="text-center text-light">&copy;2022 Samira Siham</p>
+      </footer>
+</body>
+</html>
